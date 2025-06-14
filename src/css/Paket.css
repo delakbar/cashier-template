@@ -1,0 +1,36 @@
+.paket-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.paket-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.paket-card:hover {
+  background-color: #e0f7f1;
+  transform: translateY(-2px);
+}
+
+.paket-card h3 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.paket-card p {
+  margin: 0 0 8px;
+  color: #555;
+}
+
+.paket-card strong {
+  color: #1abc9c;
+  font-size: 16px;
+}

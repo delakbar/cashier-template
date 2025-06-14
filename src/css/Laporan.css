@@ -1,0 +1,82 @@
+.laporan-container {
+  padding: 24px;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+}
+
+.laporan-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.laporan-filter {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.laporan-summary {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.summary-card {
+  flex: 1;
+  min-width: 200px;
+  background: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.summary-card.total h3 {
+  color: #2980b9;
+}
+
+.summary-card.income h3 {
+  color: #27ae60;
+}
+
+.summary-card.expense h3 {
+  color: #c0392b;
+}
+
+.laporan-table {
+  overflow-x: auto;
+  background: white;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.05);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f7f7f7;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .laporan-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .laporan-summary {
+    flex-direction: column;
+  }
+}

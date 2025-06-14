@@ -1,0 +1,47 @@
+.biaya-container {
+  padding: 24px;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+}
+
+.biaya-container h1 {
+  margin-bottom: 8px;
+}
+
+.biaya-table {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #1abc9c;
+  color: white;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+  .biaya-container {
+    padding: 16px;
+  }
+
+  table, thead, tbody, th, td, tr {
+    font-size: 14px;
+  }
+}
