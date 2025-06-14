@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cashier-template/static/css/main.e687c6cd.css",
+    "main.js": "/cashier-template/static/js/main.684a2003.js",
+    "index.html": "/cashier-template/index.html",
+    "main.e687c6cd.css.map": "/cashier-template/static/css/main.e687c6cd.css.map",
+    "main.684a2003.js.map": "/cashier-template/static/js/main.684a2003.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e687c6cd.css",
+    "static/js/main.684a2003.js"
+  ]
+}
